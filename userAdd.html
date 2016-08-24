@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>User Add</title>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <h1 class="mm">연락처 등록</h1>
+    <form action="userList.html">
+        <table>
+            <tr>
+                <div class="form-inline">
+                    <td>
+                        <label for="name">이름</label>
+                        <input type="text" id="name"/>
+                    </td>
+                    <td>
+                        <label for="phone">전화</label>
+                        <input type="text" id="phone"/>
+                    </td>
+                </div>
+            </tr>
+        <div class="form-inline">
+            <tr>
+                <td>
+                    <label>성별</label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender_m">남
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender_f">여
+                    </label>
+                </td>
+                <td>
+                    <label for="addr">주소</label>
+                    <textarea id="addr"></textarea>
+                </td>
+            </tr>
+        </div>
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="추가">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

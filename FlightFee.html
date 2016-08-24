@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>FlightFee Calculater</title>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<form action="flightFee.html"class="form-inline container-fluid">
+    <div class="container-fluid">
+        <h1>항공요금 계산기</h1>
+        <div class="container-fluid">
+            <label>인원:</label>
+            <label for="sel1">성인</label>
+                <select class="form-control" id="sel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            <label for="sel2">어린이</label>
+            <select class="form-control" id="sel2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <label for="sel3">유아</label>
+            <select class="form-control" id="sel3">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+        <div class="container-fluid ">
+            <label>목적지:</label>
+            <label class="radio-inline">
+                <input type="radio" name="nyc">뉴욕
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="bnk">방콕
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="syd">시드니
+            </label>
+        </div>
+        <!-- 계산버튼 -->
+        <br>
+        <button type="submit"  class="btn btn-default center-block">Submit</button>
+        <br>
+        <div class="container-fluid">
+            <label for="fee">항공료:</label>
+            <input type="text" class="form-control" id="fee">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
